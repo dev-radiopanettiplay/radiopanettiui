@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'radiopanettiicons';
-  src:  url('fonts/radiopanettiicons.eot?qzz1wi');
-  src:  url('fonts/radiopanettiicons.eot?qzz1wi#iefix') format('embedded-opentype'),
-    url('fonts/radiopanettiicons.ttf?qzz1wi') format('truetype'),
-    url('fonts/radiopanettiicons.woff?qzz1wi') format('woff'),
-    url('fonts/radiopanettiicons.svg?qzz1wi#radiopanettiicons') format('svg');
+  src:  url('radiopanettiicons.eot?qzz1wi');
+  src:  url('radiopanettiicons.eot?qzz1wi#iefix') format('embedded-opentype'),
+    url('radiopanettiicons.ttf?qzz1wi') format('truetype'),
+    url('radiopanettiicons.woff?qzz1wi') format('woff'),
+    url('radiopanettiicons.svg?qzz1wi#radiopanettiicons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
