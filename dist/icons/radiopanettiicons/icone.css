@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.rpicon-add:before {
+  content: "\e93c";
+}
 .rpicon-linkedin:before {
   content: "\e937";
 }
