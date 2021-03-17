@@ -25,7 +25,7 @@ class rpuigallery extends HTMLElement {
 		  }
 		}
 window.customElements.define('rpui-gallery', rpuigallery);
-class rpuigallery extends HTMLElement {
+class rpuiplayer extends HTMLElement {
 		  connectedCallback() {
 		    var immagine=this.getAttribute("immagine") || "", mp4=this.getAttribute("mp4") || "";
 			this.innerHTML = `<video id="my-video" class="video-js" controls preload="auto" width="640" height="264" poster="`+immagine+`" data-setup="{}"><source src="`+mp4+`" type="video/mp4" /></video><script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>`;
