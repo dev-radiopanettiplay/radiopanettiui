@@ -27,8 +27,8 @@ class rpuigallery extends HTMLElement {
 window.customElements.define('rpui-gallery', rpuigallery);
 class rpuiplayer extends HTMLElement {
 		  connectedCallback() {
-		    var immagine=this.getAttribute("immagine") || "", mp4=this.getAttribute("mp4") || "";
-			this.innerHTML = `<video id="my-video" class="video-js" controls preload="auto" width="100%" height="500" poster="`+immagine+`" data-setup="{}"><source src="`+mp4+`" type="video/mp4" /></video><script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>`;
+		    var immagine=this.getAttribute("immagine") || "", mp4=this.getAttribute("mp4") || "", width=this.getAttribute("width") || "100%", height=this.getAttribute("height") || "500";
+			this.innerHTML = `<video id="my-video" class="video-js" controls preload="auto" width="`+width+`" height="`+height+`" poster="`+immagine+`" data-setup="{}"><source src="`+mp4+`" type="video/mp4" /></video><script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>`;
 		}
 }
 window.customElements.define('rpui-player', rpuiplayer);
