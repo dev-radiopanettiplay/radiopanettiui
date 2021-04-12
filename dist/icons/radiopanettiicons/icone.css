@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'radiopanettiicons';
-  src:  url('radiopanettiicons.eot?qzz1wi');
-  src:  url('radiopanettiicons.eot?qzz1wi#iefix') format('embedded-opentype'),
-    url('radiopanettiicons.ttf?qzz1wi') format('truetype'),
-    url('radiopanettiicons.woff?qzz1wi') format('woff'),
-    url('radiopanettiicons.svg?qzz1wi#radiopanettiicons') format('svg');
+  src:  url('fonts/radiopanettiicons.eot?9sb2ak');
+  src:  url('fonts/radiopanettiicons.eot?9sb2ak#iefix') format('embedded-opentype'),
+    url('fonts/radiopanettiicons.ttf?9sb2ak') format('truetype'),
+    url('fonts/radiopanettiicons.woff?9sb2ak') format('woff'),
+    url('fonts/radiopanettiicons.svg?9sb2ak#radiopanettiicons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,10 +25,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.rpicon-dirette:before {
-  content: "\e93c";
+.rpicon-social:before {
+  content: "\e93d";
 }
-.rpicon-add:before {
+.rpicon-macchinafotografica:before {
+  content: "\e93e";
+}
+.rpicon-podcast:before {
+  content: "\e93f";
+}
+.rpicon-tv:before {
+  content: "\e940";
+}
+.rpicon-dirette:before {
   content: "\e93c";
 }
 .rpicon-linkedin:before {
