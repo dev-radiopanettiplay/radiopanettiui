@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.rpicon-dirette:before {
+  content: "\e93c";
+}
 .rpicon-add:before {
   content: "\e93c";
 }
