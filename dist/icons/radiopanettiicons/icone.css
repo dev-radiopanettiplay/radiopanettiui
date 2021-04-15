@@ -10,7 +10,7 @@
   font-display: block;
 }
 
-[class^="rpicons-"], [class*=" rpicons-"] {
+[class^="rpicon-"], [class*=" rpicon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'radiopanettiicons' !important;
   speak: never;
@@ -25,239 +25,239 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.rpicons-tv:before {
+.rpicon-tv:before {
   content: "\e916";
 }
-.rpicons-cuffialogo:before {
+.rpicon-cuffialogo:before {
   content: "\e90b";
 }
-.rpicons-articolo:before {
+.rpicon-articolo:before {
   content: "\e900";
 }
-.rpicons-d-alt:before {
+.rpicon-d-alt:before {
   content: "\e901";
 }
-.rpicons-d:before {
+.rpicon-d:before {
   content: "\e902";
 }
-.rpicons-add:before {
+.rpicon-add:before {
   content: "\e903";
 }
-.rpicons-amazon:before {
+.rpicon-amazon:before {
   content: "\e904";
 }
-.rpicons-arrow-left:before {
+.rpicon-arrow-left:before {
   content: "\e905";
 }
-.rpicons-arrow-right:before {
+.rpicon-arrow-right:before {
   content: "\e906";
 }
-.rpicons-articolo-play:before {
+.rpicon-articolo-play:before {
   content: "\e907";
 }
-.rpicons-aumentacarattere-rpnews:before {
+.rpicon-aumentacarattere-rpnews:before {
   content: "\e908";
 }
-.rpicons-cerca:before {
+.rpicon-cerca:before {
   content: "\e909";
 }
-.rpicons-chiudi-fullscreen:before {
+.rpicon-chiudi-fullscreen:before {
   content: "\e90a";
 }
-.rpicons-defaultcarattere-rpnews:before {
+.rpicon-defaultcarattere-rpnews:before {
   content: "\e90c";
 }
-.rpicons-diminuiscicarattere-rpnews:before {
+.rpicon-diminuiscicarattere-rpnews:before {
   content: "\e90d";
 }
-.rpicons-dirette-app-twotone .path1:before {
+.rpicon-dirette-app-twotone .path1:before {
   content: "\e90e";
   color: rgb(0, 0, 0);
   opacity: 0.35;
 }
-.rpicons-dirette-app-twotone .path2:before {
+.rpicon-dirette-app-twotone .path2:before {
   content: "\e90f";
   margin-left: -1.771484375em;
   color: rgb(0, 0, 0);
 }
-.rpicons-dirette-app-twotone .path3:before {
+.rpicon-dirette-app-twotone .path3:before {
   content: "\e910";
   margin-left: -1.771484375em;
   color: rgb(0, 0, 0);
 }
-.rpicons-dirette-app-twotone .path4:before {
+.rpicon-dirette-app-twotone .path4:before {
   content: "\e911";
   margin-left: -1.771484375em;
   color: rgb(0, 0, 0);
 }
-.rpicons-dirette-app-twotone .path5:before {
+.rpicon-dirette-app-twotone .path5:before {
   content: "\e912";
   margin-left: -1.771484375em;
   color: rgb(0, 0, 0);
 }
-.rpicons-dirette-app-twotone .path6:before {
+.rpicon-dirette-app-twotone .path6:before {
   content: "\e913";
   margin-left: -1.771484375em;
   color: rgb(0, 0, 0);
 }
-.rpicons-dirette-app:before {
+.rpicon-dirette-app:before {
   content: "\e914";
 }
-.rpicons-download:before {
+.rpicon-download:before {
   content: "\e915";
 }
-.rpicons-esplora-app-twotone .path1:before {
+.rpicon-esplora-app-twotone .path1:before {
   content: "\e91f";
   color: rgb(0, 0, 0);
   opacity: 0.35;
 }
-.rpicons-esplora-app-twotone .path2:before {
+.rpicon-esplora-app-twotone .path2:before {
   content: "\e920";
   margin-left: -1.34375em;
   color: rgb(0, 0, 0);
 }
-.rpicons-esplora-app-twotone .path3:before {
+.rpicon-esplora-app-twotone .path3:before {
   content: "\e921";
   margin-left: -1.34375em;
   color: rgb(0, 0, 0);
 }
-.rpicons-esplora-app-twotone .path4:before {
+.rpicon-esplora-app-twotone .path4:before {
   content: "\e922";
   margin-left: -1.34375em;
   color: rgb(0, 0, 0);
 }
-.rpicons-esplora-app-twotone .path5:before {
+.rpicon-esplora-app-twotone .path5:before {
   content: "\e923";
   margin-left: -1.34375em;
   color: rgb(0, 0, 0);
 }
-.rpicons-esplora-app-twotone .path6:before {
+.rpicon-esplora-app-twotone .path6:before {
   content: "\e924";
   margin-left: -1.34375em;
   color: rgb(0, 0, 0);
 }
-.rpicons-esplora-app-twotone .path7:before {
+.rpicon-esplora-app-twotone .path7:before {
   content: "\e925";
   margin-left: -1.34375em;
   color: rgb(0, 0, 0);
 }
-.rpicons-esplora-app-twotone .path8:before {
+.rpicon-esplora-app-twotone .path8:before {
   content: "\e926";
   margin-left: -1.34375em;
   color: rgb(0, 0, 0);
 }
-.rpicons-esplora-app-twotone .path9:before {
+.rpicon-esplora-app-twotone .path9:before {
   content: "\e927";
   margin-left: -1.34375em;
   color: rgb(0, 0, 0);
 }
-.rpicons-esplora-app-twotone .path10:before {
+.rpicon-esplora-app-twotone .path10:before {
   content: "\e928";
   margin-left: -1.34375em;
   color: rgb(0, 0, 0);
 }
-.rpicons-esplora-app:before {
+.rpicon-esplora-app:before {
   content: "\e929";
 }
-.rpicons-facebook:before {
+.rpicon-facebook:before {
   content: "\e92a";
 }
-.rpicons-fullscreen:before {
+.rpicon-fullscreen:before {
   content: "\e92b";
 }
-.rpicons-hd-alt:before {
+.rpicon-hd-alt:before {
   content: "\e92c";
 }
-.rpicons-hd:before {
+.rpicon-hd:before {
   content: "\e92d";
 }
-.rpicons-home-app-twotone .path1:before {
+.rpicon-home-app-twotone .path1:before {
   content: "\e92e";
   color: rgb(0, 0, 0);
   opacity: 0.25;
 }
-.rpicons-home-app-twotone .path2:before {
+.rpicon-home-app-twotone .path2:before {
   content: "\e92f";
   margin-left: -0.8828125em;
   color: rgb(0, 0, 0);
 }
-.rpicons-home-app-twotone .path3:before {
+.rpicon-home-app-twotone .path3:before {
   content: "\e930";
   margin-left: -0.8828125em;
   color: rgb(0, 0, 0);
 }
-.rpicons-home-app:before {
+.rpicon-home-app:before {
   content: "\e931";
 }
-.rpicons-iconaapple:before {
+.rpicon-iconaapple:before {
   content: "\e932";
 }
-.rpicons-iconagoogle:before {
+.rpicon-iconagoogle:before {
   content: "\e933";
 }
-.rpicons-instagram:before {
+.rpicon-instagram:before {
   content: "\e934";
 }
-.rpicons-linkedin:before {
+.rpicon-linkedin:before {
   content: "\e935";
 }
-.rpicons-live:before {
+.rpicon-live:before {
   content: "\e936";
 }
-.rpicons-macchinafotografica:before {
+.rpicon-macchinafotografica:before {
   content: "\e937";
 }
-.rpicons-menu-rpplay:before {
+.rpicon-menu-rpplay:before {
   content: "\e938";
 }
-.rpicons-menu-threebars:before {
+.rpicon-menu-threebars:before {
   content: "\e939";
 }
-.rpicons-menu-twobars:before {
+.rpicon-menu-twobars:before {
   content: "\e93a";
 }
-.rpicons-nuovo:before {
+.rpicon-nuovo:before {
   content: "\e93b";
 }
-.rpicons-onair:before {
+.rpicon-onair:before {
   content: "\e93c";
 }
-.rpicons-pausa:before {
+.rpicon-pausa:before {
   content: "\e93d";
 }
-.rpicons-play:before {
+.rpicon-play:before {
   content: "\e93e";
 }
-.rpicons-podcast:before {
+.rpicon-podcast:before {
   content: "\e93f";
 }
-.rpicons-restart:before {
+.rpicon-restart:before {
   content: "\e940";
 }
-.rpicons-rpnews:before {
+.rpicon-rpnews:before {
   content: "\e941";
 }
-.rpicons-rpplay:before {
+.rpicon-rpplay:before {
   content: "\e942";
 }
-.rpicons-rptv:before {
+.rpicon-rptv:before {
   content: "\e943";
 }
-.rpicons-share:before {
+.rpicon-share:before {
   content: "\e944";
 }
-.rpicons-social:before {
+.rpicon-social:before {
   content: "\e945";
 }
-.rpicons-twitter:before {
+.rpicon-twitter:before {
   content: "\e947";
 }
-.rpicons-useraccount-circle:before {
+.rpicon-useraccount-circle:before {
   content: "\e948";
 }
-.rpicons-wordpress:before {
+.rpicon-wordpress:before {
   content: "\e949";
 }
-.rpicons-x:before {
+.rpicon-x:before {
   content: "\e94a";
 }
