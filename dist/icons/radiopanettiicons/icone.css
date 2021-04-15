@@ -103,6 +103,9 @@
 .rpicon-dirette-app:before {
   content: "\e914";
 }
+.rpicon-dirette:before {
+  content: "\e914";
+}
 .rpicon-download:before {
   content: "\e915";
 }
