@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'radiopanettiicons';
-  src:  url('radiopanettiicons.eot?zb7m97');
-  src:  url('radiopanettiicons.eot?zb7m97#iefix') format('embedded-opentype'),
-    url('radiopanettiicons.ttf?zb7m97') format('truetype'),
-    url('radiopanettiicons.woff?zb7m97') format('woff'),
-    url('radiopanettiicons.svg?zb7m97#radiopanettiicons') format('svg');
+  src:  url('radiopanettiicons.eot?fv6ebv');
+  src:  url('radiopanettiicons.eot?fv6ebv#iefix') format('embedded-opentype'),
+    url('radiopanettiicons.ttf?fv6ebv') format('truetype'),
+    url('radiopanettiicons.woff?fv6ebv') format('woff'),
+    url('radiopanettiicons.svg?fv6ebv#radiopanettiicons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.rpicon-occhio-cancellazione:before {
+  content: "\e918";
+}
+.rpicon-occhio:before {
+  content: "\e919";
+}
+.rpicon-dirette:before {
+  content: "\e917";
+}
 .rpicon-tv:before {
   content: "\e916";
 }
@@ -101,9 +110,6 @@
   color: rgb(0, 0, 0);
 }
 .rpicon-dirette-app:before {
-  content: "\e914";
-}
-.rpicon-dirette:before {
   content: "\e914";
 }
 .rpicon-download:before {
