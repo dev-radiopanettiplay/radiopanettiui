@@ -1,16 +1,17 @@
 @font-face {
   font-family: 'radiopanettiicons';
-  src:  url('radiopanettiicons.eot?vushzz');
-  src:  url('radiopanettiicons.eot?vushzz#iefix') format('embedded-opentype'),
-    url('radiopanettiicons.ttf?vushzz') format('truetype'),
-    url('radiopanettiicons.woff?vushzz') format('woff'),
-    url('radiopanettiicons.svg?vushzz#radiopanettiicons') format('svg');
+  src:  url('radiopanettiicons.eot?a109m0');
+  src:  url('radiopanettiicons.eot?a109m0#iefix') format('embedded-opentype'),
+    url('radiopanettiicons.ttf?a109m0') format('truetype'),
+    url('radiopanettiicons.woff?a109m0') format('woff'),
+    url('radiopanettiicons.svg?a109m0#radiopanettiicons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
 [class^="rpicon-"], [class*=" rpicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'radiopanettiicons' !important;
   speak: never;
   font-style: normal;
@@ -19,10 +20,26 @@
   text-transform: none;
   line-height: 1;
 
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.rpicon-whatsapp-alt:before {
+  content: "\e94e";
+}
+.rpicon-whatsapp:before {
+  content: "\e94f";
+}
+.rpicon-facebook-messenger-alt:before {
+  content: "\e94b";
+}
+.rpicon-tiktok-alt:before {
+  content: "\e94c";
+}
+.rpicon-telegram-alt:before {
+  content: "\e94d";
+}
 .rpicon-twitter-alt:before {
   content: "\e91e";
 }
