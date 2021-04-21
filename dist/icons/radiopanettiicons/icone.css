@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'radiopanettiicons';
-  src:  url('radiopanettiicons.eot?nabze1');
-  src:  url('radiopanettiicons.eot?nabze1#iefix') format('embedded-opentype'),
-    url('radiopanettiicons.ttf?nabze1') format('truetype'),
-    url('radiopanettiicons.woff?nabze1') format('woff'),
-    url('radiopanettiicons.svg?nabze1#radiopanettiicons') format('svg');
+  src:  url('radiopanettiicons.eot?vushzz');
+  src:  url('radiopanettiicons.eot?vushzz#iefix') format('embedded-opentype'),
+    url('radiopanettiicons.ttf?vushzz') format('truetype'),
+    url('radiopanettiicons.woff?vushzz') format('woff'),
+    url('radiopanettiicons.svg?vushzz#radiopanettiicons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -18,10 +18,17 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.rpicon-twitter-alt:before {
+  content: "\e91e";
+}
+.rpicon-facebook-alt:before {
+  content: "\e946";
+}
 .rpicon-youtube:before {
   content: "\e91d";
 }
