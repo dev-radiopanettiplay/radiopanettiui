@@ -1,17 +1,16 @@
 @font-face {
   font-family: 'radiopanettiicons';
-  src:  url('radiopanettiicons.eot?fv6ebv');
-  src:  url('radiopanettiicons.eot?fv6ebv#iefix') format('embedded-opentype'),
-    url('radiopanettiicons.ttf?fv6ebv') format('truetype'),
-    url('radiopanettiicons.woff?fv6ebv') format('woff'),
-    url('radiopanettiicons.svg?fv6ebv#radiopanettiicons') format('svg');
+  src:  url('radiopanettiicons.eot?nabze1');
+  src:  url('radiopanettiicons.eot?nabze1#iefix') format('embedded-opentype'),
+    url('radiopanettiicons.ttf?nabze1') format('truetype'),
+    url('radiopanettiicons.woff?nabze1') format('woff'),
+    url('radiopanettiicons.svg?nabze1#radiopanettiicons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
 [class^="rpicon-"], [class*=" rpicon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'radiopanettiicons' !important;
   speak: never;
   font-style: normal;
@@ -19,12 +18,22 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
-  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.rpicon-youtube:before {
+  content: "\e91d";
+}
+.rpicon-facebook-messenger:before {
+  content: "\e91a";
+}
+.rpicon-telegram:before {
+  content: "\e91b";
+}
+.rpicon-tiktok:before {
+  content: "\e91c";
+}
 .rpicon-occhio-cancellazione:before {
   content: "\e918";
 }
