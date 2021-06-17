@@ -22,6 +22,15 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.rpicon-sottotitoli:before {
+  content: "\e95b";
+}
+.rpicon-pip-fill:before {
+  content: "\e95c";
+}
+.rpicon-pip:before {
+  content: "\e95d";
+}
 .rpicon-discord:before {
   content: "\e952";
 }
