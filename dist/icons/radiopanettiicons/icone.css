@@ -22,6 +22,18 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.rpicon-angolo_destro-alt:before {
+  content: "\e967";
+}
+.rpicon-angolo_destro:before {
+  content: "\e968";
+}
+.rpicon-freccia_destra-alt:before {
+  content: "\e969";
+}
+.rpicon-freccia_destra:before {
+  content: "\e96a";
+}
 .rpicon-tv-alt:before {
   content: "\e966";
 }
