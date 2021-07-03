@@ -22,6 +22,33 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.rpicon-tv-alt:before {
+  content: "\e966";
+}
+.rpicon-external-alt:before {
+  content: "\e95f";
+}
+.rpicon-external:before {
+  content: "\e960";
+}
+.rpicon-link-alt:before {
+  content: "\e961";
+}
+.rpicon-link:before {
+  content: "\e962";
+}
+.rpicon-nota_musicale-alt:before {
+  content: "\e963";
+}
+.rpicon-nota_musicale:before {
+  content: "\e964";
+}
+.rpicon-square:before {
+  content: "\e965";
+}
+.rpicon-square-alt:before {
+  content: "\e95e";
+}
 .rpicon-sottotitoli:before {
   content: "\e95b";
 }
